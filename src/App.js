@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import MapView from '.MapView/components/MapView';
 
 function App() {
   return (
@@ -21,5 +23,15 @@ function App() {
     </div>
   );
 }
+
+
+function App() {
+  return (
+    <div className="App">
+      <MapView />
+    </div>
+  );
+}
+
 
 export default App;
